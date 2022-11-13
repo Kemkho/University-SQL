@@ -193,7 +193,7 @@ INSERT INTO Students
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
-   VALUES (1,1,3,1,1,"2022-07-01");
+   VALUES (1,1,3,7,1,"2022-07-01");
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
@@ -201,11 +201,11 @@ INSERT INTO Students_subject
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
-   VALUES (3,3,4,3,1,"2022-07-01");
+   VALUES (3,3,4,1,1,"2022-07-01");
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
-   VALUES (4,4,4,2,1,"2022-07-01");
+   VALUES (4,4,4,8,1,"2022-07-01");
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
@@ -213,7 +213,7 @@ INSERT INTO Students_subject
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
-   VALUES (6,6,2,1,1,"2022-07-01");
+   VALUES (6,6,2,10,1,"2022-07-01");
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
@@ -225,7 +225,7 @@ INSERT INTO Students_subject
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
-   VALUES (9,9,5,1,1,"2022-07-01");
+   VALUES (9,9,5,5,1,"2022-07-01");
 
 INSERT INTO Students_subject
    (student_subject_id,Student_id,Subject_id,leqturer_id,leqture_time_id,Enroll_date)
@@ -238,3 +238,43 @@ INSERT INTO Managers
 INSERT INTO Managers
   (manager_id,Faculty_id,First_name,Last_name,Id_number,Age,Email,Phone,manager_Address,Second_address,Appartment_number,Birth_date,Sex)
   VALUES (2,1,"Eva","Pirveli","010101","42","EP1111@Yahoo.com","599111112","Tbili","Tsagveri","11","1979-03-03","female");
+  
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (1, 10-00);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (2, 10-00);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (3, 10-30);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (4, 11-00);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (5, 11-30);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (6, 12-00);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (7, 12-30);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (8, 13-00);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (9, 13-30);
+
+INSERT INTO Leqcure_time 
+ (lecture_time_id,Leqcure_Time)
+VALUES (10, 14-0);
